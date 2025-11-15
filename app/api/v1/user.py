@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.schemas.user import UserCreate, UserPublic, UserUpdate, UserInDB
+from app.schemas.user import UserCreate, UserPublic
 
 router = APIRouter()
 
